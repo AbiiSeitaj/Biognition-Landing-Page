@@ -241,11 +241,11 @@ h1 {
 .scan-image {
   position: absolute;
   inset: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
   border-radius: 23px;
-  background:
-    radial-gradient(circle at 54% 48%, rgba(246, 250, 255, 0.28), transparent 22%),
-    radial-gradient(circle at 50% 50%, rgba(124, 203, 255, 0.18), transparent 34%),
-    linear-gradient(135deg, rgba(246, 250, 255, 0.08), rgba(6, 18, 40, 0.2));
+  object-fit: cover;
+  object-position: center;
 }
 
 .scan-overlay {
